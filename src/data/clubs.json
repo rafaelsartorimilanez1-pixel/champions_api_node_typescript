@@ -1,0 +1,130 @@
+[
+  {
+    "id": 100,
+    "name": "Real Madrid"
+  },
+  {
+    "id": 102,
+    "name": "Manchester City"
+  },
+  {
+    "id": 104,
+    "name": "Arsenal"
+  },
+  {
+    "id": 105,
+    "name": "Chelsea"
+  },
+  {
+    "id": 106,
+    "name": "Manchester United"
+  },
+  {
+    "id": 107,
+    "name": "Bayern Munich"
+  },
+  {
+    "id": 108,
+    "name": "Borussia Dortmund"
+  },
+  {
+    "id": 109,
+    "name": "Paris Saint-Germain"
+  },
+  {
+    "id": 110,
+    "name": "Juventus"
+  },
+  {
+    "id": 112,
+    "name": "AC Milan"
+  },
+  {
+    "id": 113,
+    "name": "Napoli"
+  },
+  {
+    "id": 114,
+    "name": "Atlético de Madrid"
+  },
+  {
+    "id": 115,
+    "name": "Sevilla"
+  },
+  {
+    "id": 116,
+    "name": "Benfica"
+  },
+  {
+    "id": 117,
+    "name": "Porto"
+  },
+  {
+    "id": 118,
+    "name": "Ajax"
+  },
+  {
+    "id": 119,
+    "name": "PSV Eindhoven"
+  },
+  {
+    "id": 120,
+    "name": "Sporting CP"
+  },
+  {
+    "id": 121,
+    "name": "Flamengo"
+  },
+  {
+    "id": 122,
+    "name": "Palmeiras"
+  },
+  {
+    "id": 123,
+    "name": "Corinthians"
+  },
+  {
+    "id": 124,
+    "name": "São Paulo"
+  },
+  {
+    "id": 125,
+    "name": "Santos"
+  },
+  {
+    "id": 126,
+    "name": "Vasco da Gama"
+  },
+  {
+    "id": 127,
+    "name": "Fluminense"
+  },
+  {
+    "id": 128,
+    "name": "Botafogo"
+  },
+  {
+    "id": 129,
+    "name": "Cruzeiro"
+  },
+  {
+    "id": 130,
+    "name": "Atlético Mineiro"
+  },
+  {
+    "id": 131,
+    "name": "Grêmio"
+  },
+  {
+    "id": 132,
+    "name": "Internacional"
+  },
+  {
+    "id": 133,
+    "name": "Athletico Paranaense"
+  },
+  {
+    "id": 134,
+    "name": "Bahia"
+  }
+]
