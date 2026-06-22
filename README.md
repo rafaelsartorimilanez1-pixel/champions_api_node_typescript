@@ -1,61 +1,114 @@
-# App de Doação
+# API Champions ⚽
 
-Aplicação Fullstack desenvolvida para conectar pessoas que desejam doar alimentos com pessoas ou instituições que precisam de ajuda.
-
-Link do deploy: https://projeto-docao-fullstack.vercel.app/
+API REST desenvolvida com Node.js, TypeScript e Express para gerenciamento de jogadores e clubes de futebol.
+Link do deploy: https://champions-api-node-typescript.onrender.com
 
 ## Tecnologias Utilizadas
 
-### Frontend
-
-* React.js
-* JavaScript
-* CSS
-
-### Backend
-
 * Node.js
+* TypeScript
 * Express.js
-* PostgreSQL
-* JWT
-* bcrypt
+* CORS
 
 ## Funcionalidades
 
-* Cadastro e login de usuários
-* Criação de posts de doação
-* Criação de pedidos de alimentos
-* Sistema de correspondência (matching) entre doações e pedidos
-* Gerenciamento de usuários e publicações
-* Operações CRUD completas
+### Jogadores
 
-## Como Executar
+* Listar todos os jogadores
+* Buscar jogador por ID
+* Cadastrar jogador
+* Atualizar jogador
+* Remover jogador
 
-### Backend
+### Clubes
 
-```bash
-npm install
-npm run start:dev
-```
-
-### Frontend
-
-```bash
-npm install
-npm run dev
-```
+* Listar todos os clubes
+* Buscar clube por ID
+* Cadastrar clube
+* Remover clube
 
 ## Estrutura do Projeto
 
-* Frontend desenvolvido em React.js
-* Backend desenvolvido com Node.js e Express.js
-* Banco de dados PostgreSQL hospedado no Supabase
+```text
+src/
+├── controller/
+├── data/
+├── models/
+├── repositories/
+├── services/
+├── utils/
+├── app.ts
+├── routes.ts
+└── server.ts
+```
+
+A aplicação segue uma arquitetura em camadas para facilitar a manutenção e organização do código.
+
+## Instalação
+
+Clone o repositório:
+
+```bash
+git clone <url-do-repositorio>
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+## Executando o Projeto
+
+Modo desenvolvimento:
+
+```bash
+npm run start:dev
+```
+
+Modo observação (watch):
+
+```bash
+npm run start:watch
+```
+
+Gerar build:
+
+```bash
+npm run build
+```
+
+Executar versão de produção:
+
+```bash
+npm start
+```
+
+## Endpoints
+
+### Players
+
+| Método | Rota         |
+| ------ | ------------ |
+| GET    | /players     |
+| GET    | /players/:id |
+| POST   | /players     |
+| PATCH  | /players/:id |
+| DELETE | /players/:id |
+
+### Clubs
+
+| Método | Rota       |
+| ------ | ---------- |
+| GET    | /clubs     |
+| GET    | /clubs/:id |
+| POST   | /clubs     |
+| DELETE | /clubs/:id |
 
 ## Deploy
 
-* Frontend hospedado na Vercel
-* Backend hospedado no Render
+A API está publicada utilizando a plataforma Render.
 
 ## Objetivo
 
-Facilitar a conexão entre doadores e pessoas que necessitam de alimentos, tornando o processo de doação mais rápido, organizado e acessível.
+Este projeto foi desenvolvido para praticar conceitos de desenvolvimento Backend com Node.js, TypeScript, Express e arquitetura em camadas, implementando operações CRUD e boas práticas de organização de código.
